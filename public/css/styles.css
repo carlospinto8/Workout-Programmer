@@ -1,0 +1,53 @@
+html, body{ 
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat";
+    text-align: center;
+    background-color: #20252c;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    justify-content: center;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #dbcedb;
+    
+}
+
+.workout {
+    max-width: 500px;
+    padding: 1rem;
+    background-color: #20252c;
+    border-style: solid;
+    border-color: #dbcedb;
+    
+}
+
+.exercise-btn {
+    background-color: #c12d8c;
+    color: white;
+}
+
+#new-exercise {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: .375rem;
+}
+
+
+
+
+footer {
+    color: #dbcedb;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+}
